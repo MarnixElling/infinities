@@ -96,8 +96,9 @@ button:hover {
     font-weight: bold;
 }
 .quantity {
-    width: 3%;
+    width: 4%;
     color: #57BB90;
+    border: none;
 }
 .name {
     margin-left: 12%;
@@ -106,4 +107,8 @@ button:hover {
 .price {
     margin-left: 65%;
     color: #76CAD4;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
 }
