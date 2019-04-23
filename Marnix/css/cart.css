@@ -1,0 +1,109 @@
+.container {
+    background-color: #F1F6FC;
+    width: 100%;
+    height: 800px;
+}
+.left {
+    margin-top: 130px;
+    width: 30%;
+    margin-left: 10%;
+    display: inline-block;
+}
+.right {
+    vertical-align: top;
+    margin-top: 190px;
+    width: 49%;
+    margin-right: 10%;
+    display: inline-block;
+}
+.carts {
+    height: 200px;
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    color: #57BB90;
+}
+.big {
+    width: 8%;
+    height: 150px;
+    font-size: 135px;
+    position: absolute;
+    margin-top: 50px;
+}
+.small {
+    width: 4%;
+    height: 75px;
+    font-size: 65px;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 8%;
+    opacity: 0.5;
+}
+.left p {
+    font-weight: bold;
+    color: #5D5C5A;
+    font-size: 30px;
+}
+.left span {
+    color: #A5A5B1;
+}
+.top {
+    margin-left: 20%;
+    color: #A5A5B1;
+}
+.mid {
+    margin-left: 11%;
+}
+.rechts {
+    margin-left: 60%;
+}
+.list {
+    margin-left: 20%;
+}
+.bot {
+    margin-top: 50px;
+    margin-left: 20%;
+    font-weight: bold;
+    color: #5D5C5A;
+}
+.prijs {
+    margin-left: 2%;
+    color: #57BB90;
+}
+button {
+    float: right;
+    background-color: #57BB90;
+    color: #F1F5FC;
+    font-size: 15px;
+    height: 50px;
+    width: 14%;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #F1F5FC;
+    color: #57BB90;
+    border: 1px solid #57BB90;
+}
+.bot hr {
+    margin-top: 50px;
+}
+.product {
+    width: 96%;
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 15px;
+    font-weight: bold;
+}
+.quantity {
+    width: 3%;
+    color: #57BB90;
+}
+.name {
+    margin-left: 12%;
+    color: #5D5C5A;
+}
+.price {
+    margin-left: 65%;
+    color: #76CAD4;
+}
