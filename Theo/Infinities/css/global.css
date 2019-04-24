@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.progress {
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+.current {
+    color: #57BB90;
+    font-weight: bolder;
+}
+.circle {
+    font-size: 5px;
+    vertical-align: middle;
+    color: #01524B;
+}
+.other {
+    color: #57BB90;
+}
