@@ -108,7 +108,30 @@ button:hover {
     margin-left: 65%;
     color: #76CAD4;
 }
+.max4 {
+    color: #76CAD4 !important;
+}
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {  
    opacity: 1;
+}
+@media (max-width:1460px) {
+    .rechts {
+        margin-left: 50%;
+    }
+    .price {
+        margin-left: 58%;
+    }
+    button {
+        width: 20%;
+    }
+    .left p {
+        font-size: 18px;
+    }
+    .big {
+        font-size: 90px;
+    }
+    .small {
+        font-size: 45px;
+    }
 }
