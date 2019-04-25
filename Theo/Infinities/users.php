@@ -1,6 +1,6 @@
 <?php
 
-include_once 'header.php';
+include_once 'adminheader.php';
 include_once 'sidebar.php';
 if ($_SESSION['admin'] != 1) {
     echo 'krijg de kanker';

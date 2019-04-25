@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("button").click(function(){
+    $(".hamburger").click(function(){
         if($(".hamburger").hasClass("is-inactive")){
             $(".hamburger").removeClass("is-inactive");
             $(".hamburger").addClass("is-active");

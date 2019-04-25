@@ -14,9 +14,9 @@ session_destroy();
 
 <body>
     <div class="form">
-          <h1>Thanks for stopping by</h1>
+          <h1>We zien je snel terug!</h1>
               
-          <p><?= 'You have been logged out!'; ?></p>
+          <p><?= 'Je ben uitgelogd.'; ?></p>
           
           <a href="index.php"><button class="button button-block"/>Home</button></a>
 

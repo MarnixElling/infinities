@@ -1,14 +1,13 @@
 <?php
-include_once 'header.php';
+include 'adminheader.php';
 include_once 'sidebar.php';
 if ($_SESSION['admin'] != 1) {
-    echo 'krijg de kanker';
-    header('location: profile.php');
+    header('location: index.php');
 } else {
     ?>
 <head>
 
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style2.css">
 
 <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
 
