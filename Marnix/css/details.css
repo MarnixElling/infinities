@@ -1,0 +1,133 @@
+.container {
+    background-color: #F1F7FC;
+    width: 100%;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+.festival {
+    width: 80%;
+    height: 700px;
+    margin-left: 10%;
+    background-color: #ffffff;
+}
+.festival img {
+    width: 80%;
+    -webkit-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow:    0px 4px 14px 0px rgba(0, 0, 0, 0.62);
+    box-shadow:         0px 4px 14px 0px rgba(0, 0, 0, 0.62);
+}
+.front {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 5%;
+    width: 35%;
+    color: #57BB90;
+    float: left;
+    height: 275px;
+}
+.info {
+    display: inline-block;
+    width: 48.5%;
+    float: left;
+    margin-top: 150px;
+    height: 275px;
+}
+hr {
+    width: 86%;
+    background-color: #76CAD4;
+    height: 5px;
+    border: none;
+}
+.price {
+    margin-top: 20px;
+    font-size: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    float: left;
+    color: #76CAD4;
+}
+.purchase {
+    margin-top: 20px;
+    background-color: #57BB90;
+    width: 219px;
+    height: 65px;
+    line-height: 65px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+.purchase:hover {
+    cursor: pointer;
+    background-color: #01524E;
+}
+.detailed {
+    width: 86%;
+    margin-left: 1%;
+    font-size: 17.5px;
+    margin-bottom: 50px;
+}
+li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 11%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+ul ul li {
+    font-size: 13px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0;
+    display: block;
+}
+@media (max-width:1580px) {
+    li {
+        margin-right: 0;
+    }
+    .front {
+        margin-top: 50px;
+    }
+}
+@media (max-width:1000px) {
+    li {
+        display: block;
+    }
+    .front {
+        margin-top: 0px;
+        padding: 0;
+    }
+    .info {
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .price {
+        font-size: 30px;
+    }
+    .purchase {
+        width: 160px;
+    }
+    .festival {
+        height: 800px;
+    }
+    .festival img {
+        width: 95%;
+    }
+}
+@media (max-width:780px) {
+    h1 {
+        font-size: 20px;
+    }
+    .info {
+        font-size: 12px;
+    }
+    .price {
+        margin-top: -50px;
+        margin-left: -75%;
+    }
+    .purchase {
+        float: none;
+        margin-left: -35%;
+    }
+}
