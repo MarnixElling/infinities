@@ -1,10 +1,9 @@
 <?php
 
-include_once 'header.php';
+include_once 'adminheader.php';
 include_once 'sidebar.php';
 if ($_SESSION['admin'] != 1) {
-    echo 'krijg de kanker';
-    header('location: profile.php');
+    header('location: index.php');
 } else {
     ?>
     <h2> Welkom <?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?></h2>
@@ -16,3 +15,4 @@ if ($_SESSION['admin'] != 1) {
         text-align: center;
     }
 </style>
+<?php

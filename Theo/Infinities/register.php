@@ -16,11 +16,15 @@ session_start();
 </head>
 
 <?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (isset($_POST['register'])) { //user registering
-        require 'include/register.inc.php';
+    if (!(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] != '')) {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            if (isset($_POST['register'])) { //user logging in
+                require 'include/register.inc.php';
+            }
+        }
+    } else {
+        header('location: index.php');
     }
-}
 ?>
 <body style="background-color:rgb(241,247,252);">
     <div class="register-photo" style="background-color:rgba(255,255,255,0);">
@@ -92,3 +96,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </form>
 
             </div> -->
+</html>

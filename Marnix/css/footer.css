@@ -1,5 +1,99 @@
 footer {
-    height: 600px;
+    height: 660px;
     width: 100%;
+    padding-top: 75px;
     background-image: linear-gradient(to bottom right, #76CAD4, #57BB90);
+    color: #ffffff;
+}
+.links {
+    width: 80%;
+    height: 460px;
+    margin-left: 10%;
+    font-size: 17.5px;
+    line-height: 90px;
+}
+.lists {
+    width: 25%;
+    margin-right: 5%;
+    display: inline-block;
+}
+.last {
+    width: 34%;
+    margin-right: 0;
+}
+.first {
+    font-weight: bold;
+    font-size: 25px;
+}
+.infinity {
+    text-align: center;
+    font-size: 20px;
+}
+.widgets {
+    margin-right: 5%;
+    width: 25%;
+    vertical-align: bottom;
+    float: right;
+}
+ul {
+    list-style-type: none;
+}
+.widgets li {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 30px;
+}
+.widgets li:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+.widgets a:link {
+    color: #ffffff;
+}
+.widgets a:visited {
+    color: #ffffff;
+}
+@media (max-width:1400px) {
+    .last {
+        width: 39%;
+    }
+    .first {
+        font-size: 20px;
+    }
+    .lists {
+        margin-right: 2%;
+        font-size: 15px;
+    }
+    .widgets {
+        width: 30%;
+        font-size: 0px;
+    }
+}
+@media (max-width:1060px) {
+    .links {
+        height: 250px;
+        width: 90%;
+    }
+    .first {
+        font-size: 15px;
+    }
+    .lists {
+        line-height: 50px;
+        font-size: 11px;
+    }
+    .last {
+        margin-right: 0;
+    }
+    .widgets {
+        width: 80%;
+        margin-top: 50px;
+    }
+}
+@media (max-width:700px) {
+    .infinity {
+        margin-top: 150px;
+    }
+    .widgets {
+        width: 90%;
+    }
 }

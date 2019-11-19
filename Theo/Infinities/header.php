@@ -10,29 +10,29 @@ session_start();
 </head>
 <body>
     <header>
-        <h1>I N F I N I T I E S</h1>
+    <a href="index.php" style="width: 241px;text-decoration: none;"><h1>I N F I N I T I E S</h1></a>
         <nav>
             <ul class="default">
-                <a href="index.php">
-                    <li>Evenementen</li>
+                <a href="index.php#events">
+                    <li>Evenementen <i class="fas fa-calendar-alt"></i></li>
                 </a>
                 <a href="cart.php">
-                    <li>Winkelwagen</li>
+                    <li>Winkelwagen <i class="fas fa-shopping-cart"></i></li>
                 </a>
                 <?php
                     if (!(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] != '')) {
-                        echo '<a href="login.php"><li>Login/Register</li></a>';
+                        echo '<a href="login.php"><li>Login / Register <i class="fas fa-sign-in-alt"></i></li></a>';
                     } else {
-                        echo '<a href="logout.php"><li>Uitloggen</li></a>';
+                        echo '<a href="logout.php"><li>Uitloggen <i class="fas fa-sign-out-alt"></i></li></a>';
                     }
                 ?>
             </ul>
             <div class="responsive-ul">
                 <ul class="menu">
-                    <a href="">
+                    <a href="index.php">
                         <li>Evenementen</li>
                     </a>
-                    <a href="">
+                    <a href="cart.php">
                         <li>Winkelwagen</li>
                     </a>
                     <?php
